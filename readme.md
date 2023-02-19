@@ -30,6 +30,9 @@
     This bot will give you stream links for Telegram files without the need of waiting till the download completes
 </p>
 
+### Demo bot
+<a href="https://telegram.me/Filetolinkgenbot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-white.svg?logo=telegram"></a>
+
 
 ## ♢ How to make your own :
 
