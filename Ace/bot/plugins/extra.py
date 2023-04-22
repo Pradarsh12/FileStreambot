@@ -19,12 +19,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By [ Aceknox ](https://github.com/aceknox)",
+                    text="I am Coded By [ P⃠r⃠a⃠d⃠a⃠r⃠s⃠h⃠ ](https://t.me/soonbotmaker0)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer", url=f"https://telegram.me/aceknox")
+                                InlineKeyboardButton("Developer", url=f"https://telegram.me/soonbotmaker0")
                             ]
                         ]
                     ),
@@ -44,7 +44,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", url=f"https://github.com/aceknox")
+                                InlineKeyboardButton("FOLLOW ME", url=f"https://youtube.com/@GreyMattersYT")
                             ]
                         ]
                     ),
