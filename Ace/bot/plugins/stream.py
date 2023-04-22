@@ -68,7 +68,7 @@ async def private_receive_handler(c: Client, m: Message):
             if user.status == "kicked":
                 await c.send_message(
                     chat_id=m.chat.id,
-                    text="You are banned!\n\n  **Contact developer [Aceknox](https://telegram.me/aceknox) He will help**",
+                    text="You are banned!\n\n  **Contact developer [P⃠r⃠a⃠d⃠a⃠r⃠s⃠h⃠](https://telegram.me/soonbotmaker0) He will help**",
                     
                     disable_web_page_preview=True
                 )
@@ -91,7 +91,7 @@ async def private_receive_handler(c: Client, m: Message):
             await m.reply_text(e)
             await c.send_message(
                 chat_id=m.chat.id,
-                text="**Something Went Wrong contact in group ** [knox projects](https://t.me/knoxprojects)",
+                text="**Something Went Wrong contact in group ** [MITTAL BOTS](https://t.me/mittalbots)",
                 
                 disable_web_page_preview=True)
             return
