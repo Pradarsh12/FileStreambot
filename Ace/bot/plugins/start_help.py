@@ -56,7 +56,7 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://telegra.ph/file/cd472acf49a993c915ed3.jpg",
+                photo="https://telegra.ph/file/e3c24c838af11ad3f07a7.jpg",
                 caption="<i>Join Update Channel to use Me </i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -71,13 +71,13 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>Something Went Wrong</i> <b> <a href='https://t.me/knoxprojects'>CLICK HERE FOR SUPPORT </a></b>",
+                text="<i>Something Went Wrong</i> <b> <a href='https://t.me/mittalbots'>CLICK HERE FOR SUPPORT </a></b>",
                 
                 disable_web_page_preview=True)
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://telegra.ph/file/cd472acf49a993c915ed3.jpg",
+        photo ="https://telegra.ph/file/e3c24c838af11ad3f07a7.jpg",
         caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File to Link Generator Bot with Channel support.\nSend me any file and get a direct download link and streamable link.!',
         reply_markup=buttonz)
 
@@ -104,7 +104,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await StreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://telegra.ph/file/cd472acf49a993c915ed3.jpg",
+                photo="https://telegra.ph/file/e3c24c838af11ad3f07a7.jpg",
                 Caption="**Join support group for use the bot !**\n\n__Only channel members can use the bot!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -119,7 +119,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Something went wrong. contact us __ [knox Projects](https://t.me/knoxprojects).",
+                text="__Something went wrong. contact us __ [MITTAL BOTS](https://t.me/mittalbots).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -129,8 +129,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Developer", url="https://github.com/aceknox")],
-                [InlineKeyboardButton("Source Code", url="https://github.com/aceknox/Filestreambot")]
+                [InlineKeyboardButton("Developer", url="https://t.me/soonbotmaker0")],
+                [InlineKeyboardButton("YouTube channel", url="https://youtube.com/@GreyMattersYT")]
             ]
         )
     )
