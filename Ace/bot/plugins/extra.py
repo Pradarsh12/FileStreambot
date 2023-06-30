@@ -19,7 +19,7 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By [ P⃠r⃠a⃠d⃠a⃠r⃠s⃠h⃠ ](https://t.me/soonbotmaker0)",
+                    text="I am Coded By [ P R A D A R S H ](https://t.me/soonbotmaker0)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
@@ -39,12 +39,12 @@ async def follow_user(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<B>HERE'S THE FOLLOW LINK</B>",
+                    text="<B>HERE'S THE JOIN LINK</B>",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", url=f"https://youtube.com/@GreyMattersYT")
+                                InlineKeyboardButton("JOIN ME", url=f"https://t.me/Bot_update_i")
                             ]
                         ]
                     ),
