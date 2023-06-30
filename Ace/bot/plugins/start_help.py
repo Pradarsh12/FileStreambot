@@ -71,7 +71,7 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>Something Went Wrong</i> <b> <a href='https://t.me/mittalbots'>CLICK HERE FOR SUPPORT </a></b>",
+                text="<i>Something Went Wrong</i> <b> <a href='https://t.me/Bot_update_i'>CLICK HERE FOR SUPPORT </a></b>",
                 
                 disable_web_page_preview=True)
             return
@@ -119,7 +119,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Something went wrong. contact us __ [MITTAL BOTS](https://t.me/mittalbots).",
+                text="__Something went wrong. contact us __ [P S , B O T S](https://t.me/Bot_update_i).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -130,7 +130,7 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("Developer", url="https://t.me/soonbotmaker0")],
-                [InlineKeyboardButton("YouTube channel", url="https://youtube.com/@GreyMattersYT")]
+                [InlineKeyboardButton("Update Channel", url="https://t.me/Bot_update_i")]
             ]
         )
     )
